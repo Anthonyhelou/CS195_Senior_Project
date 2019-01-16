@@ -113,6 +113,8 @@ public class TestClass {
         counts.foreach(p -> System.out.println(p));
         System.out.println("Total UNIQUE words: " + counts.count());
 
+        System.out.println("Goodbye");
+
     }
 
 
