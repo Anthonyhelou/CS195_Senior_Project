@@ -111,12 +111,11 @@ public class TestClass {
                 .mapToPair(word -> new Tuple2<>(word, 1))
                 .reduceByKey((a, b) -> a + b);
         counts.foreach(p -> System.out.println(p));
-        System.out.println("Total UNIQUE words: " + counts.count());
-
-        System.out.println("Goodbye");
 
 
-        System.out.println("Duuuuuude DO IT FOR GIT");
+
+
+
     }
 
 
